@@ -3,9 +3,16 @@
     margin: 0px;
 }
 
-#corrida01{
-    display:flex;
-    width: 100%;
+body{
+    background:url(./imagens/corrida_img01.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body .img{
+    filter:blur(2px);
 }
 
 h2{
@@ -16,6 +23,7 @@ h2{
 .textos{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.3em  0.3em 0.4em white;
 }
 
 .botoes{

@@ -1,5 +1,5 @@
-/*let corrida02 = "./Corrida Maluca/imagens/corrida_img02";
-let corrida03 = "./Corrida Maluca/imagens/corrida_img03";*/
+/*let corrida02 = "./Corrida Maluca/imagens/corrida_img02";*/
+
 
 function creatimg(caminhoDaImagem){
     let img = document.createElement("img");

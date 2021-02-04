@@ -33,15 +33,15 @@ function comecaJogo(){
     imagens(corrida01, "corrida01");
 }
 
-function apagaImg(){
+/*function apagaImg(){
    let img = document.getElementById("img");
    img.innerHTML = "";
-}
+}*/
 
 
 function menu(){
-    apagaImg();
-    imagens(corrida02, "corrida02")
+   /* apagaImg();
+    imagens(corrida02, "corrida02")*/
     apagaTexto();
     criarTexto("Mas antes escolha seu personagem favorito, baseado em sua memória e intuição, ela certamente pode te ajuda!");
     apagaBotao();
